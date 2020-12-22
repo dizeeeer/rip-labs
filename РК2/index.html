@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RK2</title>
+	<style>
+		body {
+			background-color: #6699FF; 
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		table {
+        width: 100%;
+	    }
+	    th, td {
+		    border: 2px solid #99333;
+ 	        padding: 10px;
+ 	        text-align: center;
+	     }
+
+	    th {
+	        background-color: #9999FF;
+	        color: black;
+	    }
+	    td {
+	        background-color: #FFCCFF;
+	        color: black;
+	    }
+
+	    ol {
+	    	margin: 0px 150px;
+	    	margin: 0px 150px;
+	    }
+
+	    .container {
+			margin: 5px 200px 50px 200px;
+		}
+	    .conductor * > tr:nth-child(odd) > td {
+        	background-color: #9999FF;
+      	}
+      	.orcestra > :nth-child(odd) {
+      		background-color: #FFCCFF;
+      	}
+      	.orcestra > :nth-child(even) {
+      		background-color: #9999FF;
+      	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Таблица с увеличенными внутринними границами, класс "Дом"</h1>
+		<table cellspacing="2" class="conductor">
+	      <tr>
+	        <th>Номер дома</th>
+	        <th>Номер квартиры</th>
+	        <th>Стоимость квартиры</th>
+	      </tr>
+	      <tr>
+	        <td>111</td>
+	        <td>4</td>
+	        <td>2 700 000</td>
+	      </tr>
+	      <tr>
+	        <td>112</td>
+	        <td>5</td>
+	        <td>2 500 000</td>
+	      </tr>
+	      <tr>
+	        <td>113</td>
+	        <td>2</td>
+	        <td>9 500 000</td>
+	      </tr>
+	      <tr>
+	        <td>114</td>
+	        <td>8</td>
+	        <td>6 400 000</td>
+	      </tr>
+	      <tr>
+	        <td>115</td>
+	        <td>10</td>
+	        <td>15 000 000</td>
+	      </tr>
+	    </table>
+	</div>
+	<div class="container">
+		<h1>Нумерованный список, класс "Улица"</h1>
+		<ol class="orcestra">
+			<li>ул. Фестивальная</li>
+			<li>ул. Широкая</li>
+			<li>ул. Декабристов</li>
+			<li>ул. Плещеева</li>
+			<li>ул. Голубя</li>
+		</ol>
+	</div>
+</body>
+</html>
