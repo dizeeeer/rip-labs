@@ -8,4 +8,5 @@
 [[Сайт преподавателя](https://ugapanyuk.github.io)]
 
 ## Лабораторные работы
-* [Рубежный контроль №1](https://github.com/dizeeeer/rip-labs)
+* [Рубежный контроль №1](https://github.com/dizeeeer/rip-labs/tree/master/РК1)
+* [Рубежный контроль №2](https://github.com/dizeeeer/rip-labs/tree/master/РК2)
